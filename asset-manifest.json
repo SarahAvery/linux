@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/linux/static/css/main.073c9b0a.css",
-    "main.js": "/linux/static/js/main.e20fca2f.js",
+    "main.css": "/linux/static/css/main.70d0de52.css",
+    "main.js": "/linux/static/js/main.6fbab8a4.js",
     "static/js/787.786cf2d2.chunk.js": "/linux/static/js/787.786cf2d2.chunk.js",
-    "static/media/logo.svg": "/linux/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/paint.jpg": "/linux/static/media/paint.211ca3aa1e6e45f7235c.jpg",
+    "static/media/bridge.jpg": "/linux/static/media/bridge.3421770ff8d38235e3c9.jpg",
+    "static/media/goldandblue.jpg": "/linux/static/media/goldandblue.2651d6a1cbee014428bd.jpg",
+    "static/media/mountains.jpg": "/linux/static/media/mountains.2998fa65a27c49ed22b6.jpg",
+    "static/media/bubbles.jpg": "/linux/static/media/bubbles.0a2018d27026d4a27893.jpg",
+    "static/media/red.jpg": "/linux/static/media/red.5e599e5976ceea1ba48d.jpg",
+    "static/media/mountain.jpg": "/linux/static/media/mountain.df042b3706d0fe143939.jpg",
+    "static/media/plants.jpeg": "/linux/static/media/plants.a65d8b184b377beb4172.jpeg",
+    "static/media/plants2.png": "/linux/static/media/plants2.8cde7fea2c6479102531.png",
+    "static/media/vscode.png": "/linux/static/media/vscode.a0e5ae8c6c95f6329988.png",
+    "static/media/settings.png": "/linux/static/media/settings.f5034623a044cf938f03.png",
+    "static/media/slack.png": "/linux/static/media/slack.67286fa48713c9385903.png",
+    "static/media/spotify.png": "/linux/static/media/spotify.7a3d6d6652455f14cda5.png",
+    "static/media/mongo.png": "/linux/static/media/mongo.06da67a7f9d94bdcd5f5.png",
+    "static/media/bar.png": "/linux/static/media/bar.33d796fa07ccd536e9a8.png",
+    "static/media/chrome.png": "/linux/static/media/chrome.779b5fb52a7472461032.png",
+    "static/media/synaptic.png": "/linux/static/media/synaptic.c850735a238b5ce6be32.png",
+    "static/media/software.png": "/linux/static/media/software.f17e85bf61813b762ac8.png",
+    "static/media/menu.png": "/linux/static/media/menu.b6fbd3bdef91b5fee91e.png",
     "index.html": "/linux/index.html",
-    "main.073c9b0a.css.map": "/linux/static/css/main.073c9b0a.css.map",
-    "main.e20fca2f.js.map": "/linux/static/js/main.e20fca2f.js.map",
+    "main.70d0de52.css.map": "/linux/static/css/main.70d0de52.css.map",
+    "main.6fbab8a4.js.map": "/linux/static/js/main.6fbab8a4.js.map",
     "787.786cf2d2.chunk.js.map": "/linux/static/js/787.786cf2d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e20fca2f.js"
+    "static/css/main.70d0de52.css",
+    "static/js/main.6fbab8a4.js"
   ]
 }
