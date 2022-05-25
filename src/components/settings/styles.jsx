@@ -16,6 +16,11 @@ const SettingsStyled = styled.div`
 
   overflow: hidden;
 
+  @media (max-width: 850px) {
+    width: 600px;
+    height: 400px;
+  }
+
   .title-bar {
     background: rgb(58, 58, 58);
     display: flex;
@@ -34,7 +39,7 @@ const SettingsStyled = styled.div`
 
   .nav {
     border-right: 1px solid grey;
-    min-width: 25%;
+    min-width: 28%;
 
     .title-bar {
       justify-content: space-between;
@@ -70,7 +75,7 @@ const SettingsStyled = styled.div`
     padding: 0 2px;
   }
 
-  li {
+  .menu li {
     height: 35px;
     justify-content: flex-start;
     padding: 0 10px;
@@ -112,6 +117,26 @@ const SettingsStyled = styled.div`
     }
   }
   /* Files */
+
+  .img-container {
+    overflow-y: auto;
+    max-height: calc(100% - 50px);
+    display: block;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgb(169, 169, 169);
+      outline: 1px solid slategrey;
+    }
+  }
+
   .currImg {
     border-bottom: 1px solid grey;
     height: 150px;
@@ -133,7 +158,7 @@ const SettingsStyled = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 8px;
 
     &:after {
       content: "";

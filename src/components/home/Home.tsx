@@ -2,14 +2,24 @@ import Taskbar from "../taskbar/Taskbar";
 import Menu from "../nav/Nav";
 import HomeStyled from "./styles";
 import { useState } from "react";
+import Folders from "../folders/Folders";
 
-const backgrounds = ["plants.jpeg", "plants2.png", "mountain.jpg", "bubbles.jpg"];
+const backgrounds = [
+  "plants.jpeg",
+  "plants2.png",
+  "mountain.jpg",
+  "bubbles.jpg",
+  "paint.jpg",
+  "red.jpg",
+  "goldandblue.jpg",
+  "mountains.jpg",
+  "bridge.jpg"
+];
 
 const Home = () => {
-  const [imgName, setImgName] = useState("plants.jpeg");
+  const [imgName, setImgName] = useState("goldandblue.jpg");
 
   const updateImg = (name: string) => {
-    console.log(`---${name}---`);
     setImgName(name);
   };
 
@@ -17,6 +27,7 @@ const Home = () => {
     <HomeStyled backgroundImage={imgName}>
       <Taskbar />
       <Menu backgrounds={backgrounds} currImgName={imgName} updateImg={updateImg} />
+      <Folders />
     </HomeStyled>
   );
 };

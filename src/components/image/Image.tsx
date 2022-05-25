@@ -1,5 +1,3 @@
-import React from "react";
-
 const Image = ({ name }: { name: string }) => {
   try {
     // Import image on demand

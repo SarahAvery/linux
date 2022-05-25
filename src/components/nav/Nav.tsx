@@ -4,12 +4,9 @@ import { useState } from "react";
 import Settings from "../settings/Settings";
 
 const Menu = (props: any) => {
-  console.log(`Nav - ${props.currImgName}`);
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSetting = () => {
-    console.log("toggled");
     if (isOpen === true) setIsOpen(false);
     else setIsOpen(true);
   };

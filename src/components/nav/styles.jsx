@@ -25,7 +25,7 @@ const MenuStyled = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2px 0;
+    margin: 4px 0;
     border-radius: 4px;
     @media (max-width: 850px) {
       margin: 2px 0;
@@ -33,6 +33,12 @@ const MenuStyled = styled.nav`
 
     &:hover {
       background: #6c7477;
+    }
+
+    img {
+      @media (min-width: 1400px) {
+        padding: 8%;
+      }
     }
   }
 
