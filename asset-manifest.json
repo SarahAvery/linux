@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/linux/static/css/main.70d0de52.css",
-    "main.js": "/linux/static/js/main.6fbab8a4.js",
+    "main.js": "/linux/static/js/main.0f73ba4b.js",
     "static/js/787.786cf2d2.chunk.js": "/linux/static/js/787.786cf2d2.chunk.js",
     "static/media/paint.jpg": "/linux/static/media/paint.211ca3aa1e6e45f7235c.jpg",
     "static/media/bridge.jpg": "/linux/static/media/bridge.3421770ff8d38235e3c9.jpg",
@@ -11,6 +11,7 @@
     "static/media/red.jpg": "/linux/static/media/red.5e599e5976ceea1ba48d.jpg",
     "static/media/mountain.jpg": "/linux/static/media/mountain.df042b3706d0fe143939.jpg",
     "static/media/plants.jpeg": "/linux/static/media/plants.a65d8b184b377beb4172.jpeg",
+    "static/media/github.png": "/linux/static/media/github.8bee166cce70183467e5.png",
     "static/media/plants2.png": "/linux/static/media/plants2.8cde7fea2c6479102531.png",
     "static/media/vscode.png": "/linux/static/media/vscode.a0e5ae8c6c95f6329988.png",
     "static/media/settings.png": "/linux/static/media/settings.f5034623a044cf938f03.png",
@@ -20,15 +21,16 @@
     "static/media/bar.png": "/linux/static/media/bar.33d796fa07ccd536e9a8.png",
     "static/media/chrome.png": "/linux/static/media/chrome.779b5fb52a7472461032.png",
     "static/media/synaptic.png": "/linux/static/media/synaptic.c850735a238b5ce6be32.png",
+    "static/media/folder.png": "/linux/static/media/folder.4ec76ef7d3ab9c385c1e.png",
     "static/media/software.png": "/linux/static/media/software.f17e85bf61813b762ac8.png",
     "static/media/menu.png": "/linux/static/media/menu.b6fbd3bdef91b5fee91e.png",
     "index.html": "/linux/index.html",
     "main.70d0de52.css.map": "/linux/static/css/main.70d0de52.css.map",
-    "main.6fbab8a4.js.map": "/linux/static/js/main.6fbab8a4.js.map",
+    "main.0f73ba4b.js.map": "/linux/static/js/main.0f73ba4b.js.map",
     "787.786cf2d2.chunk.js.map": "/linux/static/js/787.786cf2d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70d0de52.css",
-    "static/js/main.6fbab8a4.js"
+    "static/js/main.0f73ba4b.js"
   ]
 }
